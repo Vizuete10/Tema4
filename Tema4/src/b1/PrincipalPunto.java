@@ -1,23 +1,17 @@
-package a1;
+package b1;
 
 public class PrincipalPunto {
 
 	public static void main(String[] args) {
 
-		// Objeto 1
-		Punto p1 = new Punto();
-		p1.x = 5;
-		p1.y = 0;
+		// Objeto 1 (Inicializado con constructor)
+				Punto p1 = new Punto(5, 0);
 
-		// Objeto 2
-		Punto p2 = new Punto();
-		p2.x = 10;
-		p2.y = 10;
+				// Objeto 2 (Inicializado con constructor)
+				Punto p2 = new Punto(10, 10);
 
-		// Objeto 3
-		Punto p3 = new Punto();
-		p3.x = -3;
-		p3.y = 7;
+				// Objeto 3 (Inicializado con constructor)
+				Punto p3 = new Punto(-3, 7);
 
 		// Imprimimos por pantalla
 

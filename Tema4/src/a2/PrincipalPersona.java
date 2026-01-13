@@ -67,9 +67,8 @@ public class PrincipalPersona {
 		System.out.println(p1.nombre + p1.apellidos +"con DNI " + p1.dni + mayorEdad1 );
 		
 		System.out.println(p2.nombre + p2.apellidos +"con DNI " + p2.dni + mayorEdad2 );
-	
-	
-	
+		
+		sc.close();
 	
 	}
 }
