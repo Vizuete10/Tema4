@@ -19,7 +19,7 @@ public class Articulo {
             this.precio = precio;
         }
       
-        if (iva >= 0) {
+        if (iva >= 0 && iva <= 1) {
             this.IVA = iva;
         }
         
