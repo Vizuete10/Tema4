@@ -1,13 +1,31 @@
-package c1;
+package c1; 
 
 public class Punto {
-	
-	public Punto(int x, int y) {
-		this.x = x;
-		this.y = y;
-		
-	}
-	
-	int x;
-	int y;
+    
+    private int x;
+    private int y;
+
+   
+    public Punto(int x, int y) {
+       
+        this.x = x; 
+        this.y = y;
+    }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+   
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    public void setY(int y) {
+        this.y = y;
+    }
 }
