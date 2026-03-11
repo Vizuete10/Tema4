@@ -52,6 +52,5 @@ public class PrincipalArticulo {
         System.out.println();
         System.out.println("-----------------------------");
         System.out.println();
-        System.out.println("pedro es gay");
     }
 }
